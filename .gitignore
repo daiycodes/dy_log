@@ -1,0 +1,30 @@
+# 1. 민감 정보
+.env
+.DS_Store
+
+# 2. 로컬 개발 환경 및 임시 파일
+__pycache__/
+*.pyc
+*.log
+.ipynb_checkpoints/ # Jupyter Notebook 임시 저장 파일
+
+# 3. 데이터베이스 및 대용량 파일
+# 벡터 데이터베이스 파일
+chroma_db/
+.chroma/
+
+# MongoDB 로컬 실행 관련 파일
+/data/db/
+
+# 데이터 전처리로 생성된 대용량 CSV/데이터 파일
+question_answer.csv
+crawled_comments.csv
+*.csv
+
+# 4. OS 및 에디터별 파일
+*~
+.vscode/
+
+# 5. Anaconda/Python 가상 환경 폴더
+venv/
+env/
