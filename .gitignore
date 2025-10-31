@@ -8,7 +8,10 @@ __pycache__/
 *.log
 .ipynb_checkpoints/ # Jupyter Notebook 임시 저장 파일
 
-# 3. 데이터베이스 및 대용량 파일
+# 3. macOS 관련 파일 
+.DS_Store
+
+# 4. 데이터베이스 및 대용량 파일
 # 벡터 데이터베이스 파일
 chroma_db/
 .chroma/
@@ -21,10 +24,10 @@ question_answer.csv
 crawled_comments.csv
 *.csv
 
-# 4. OS 및 에디터별 파일
+# 5. OS 및 에디터별 파일
 *~
 .vscode/
 
-# 5. Anaconda/Python 가상 환경 폴더
+# 6. Anaconda/Python 가상 환경 폴더
 venv/
 env/
